@@ -1,5 +1,4 @@
 function hideArch() {
-  console.log("trying something");
   if (count > 10) {
     clearInterval(interval);
     console.error(
