@@ -1,5 +1,5 @@
 function hideArch() {
-  if (count > 10) {
+  if (count > 100) {
     clearInterval(interval);
     console.error(
       "more than 10 retries. stopping exec. reload page/extension."
@@ -13,5 +13,5 @@ function hideArch() {
   clearInterval(interval);
 }
 
-const interval = setInterval(hideArch, 5000);
+const interval = setInterval(hideArch, 500);
 let count = 0;
